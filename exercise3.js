@@ -2,7 +2,7 @@
 // containing a random joke given an array of jokes. Use math.random & fetch jokes from the interent (use any website to create
 // the array) your website should show a random joke on every reload min length of your jokes array should be 1.
 
-{/* <style>
+ <style>   // CSS
     *{
     margin: 0;
     padding: 0;
@@ -13,13 +13,13 @@
     font-size: xx-large;
     }
 </style>
-<html> 
+<html>    // HTML
     <div id="jokes">
         This is the sample JOKES
     </div>
-</html> */}
+</html> 
   
-{/* <sctipt>
+ <sctipt>   // JavaScript
 
     let Myjokes = [
         {
@@ -356,4 +356,4 @@
     let index = Math.floor(Math.random()*(Myjokes.length-1))
     console.log(index)
     jokes.innerHTML = Myjokes[index].joke
-</sctipt> */}
+</sctipt> 
